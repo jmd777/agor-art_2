@@ -13,6 +13,11 @@
 		84AF2C722396B6FD0078E03A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AF2C702396B6FD0078E03A /* Main.storyboard */; };
 		84AF2C742396B6FD0078E03A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AF2C732396B6FD0078E03A /* Assets.xcassets */; };
 		84AF2C772396B6FD0078E03A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AF2C752396B6FD0078E03A /* LaunchScreen.storyboard */; };
+		84DA3B462397AB1E00999A7F /* Gwen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA3B442397AB1E00999A7F /* Gwen.storyboard */; };
+		84DA3B482397AB3C00999A7F /* Asma.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA3B472397AB3C00999A7F /* Asma.storyboard */; };
+		84DA3B4A2397AB6900999A7F /* Ayite.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA3B492397AB6900999A7F /* Ayite.storyboard */; };
+		84DA3B4C2397AB7800999A7F /* Dom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA3B4B2397AB7800999A7F /* Dom.storyboard */; };
+		84DA3B4E2397AB8900999A7F /* Jm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA3B4D2397AB8900999A7F /* Jm.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		84AF2C732396B6FD0078E03A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84AF2C762396B6FD0078E03A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84AF2C782396B6FD0078E03A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DA3B452397AB1E00999A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Projet_AGOR_ART/Base.lproj/Gwen.storyboard; sourceTree = "<group>"; };
+		84DA3B472397AB3C00999A7F /* Asma.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Asma.storyboard; sourceTree = "<group>"; };
+		84DA3B492397AB6900999A7F /* Ayite.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ayite.storyboard; sourceTree = "<group>"; };
+		84DA3B4B2397AB7800999A7F /* Dom.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dom.storyboard; sourceTree = "<group>"; };
+		84DA3B4D2397AB8900999A7F /* Jm.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Jm.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				84AF2C6A2396B6FD0078E03A /* AppDelegate.swift */,
 				84AF2C6C2396B6FD0078E03A /* SceneDelegate.swift */,
 				84AF2C6E2396B6FD0078E03A /* ViewController.swift */,
+				84DA3B4D2397AB8900999A7F /* Jm.storyboard */,
+				84DA3B492397AB6900999A7F /* Ayite.storyboard */,
+				84DA3B4B2397AB7800999A7F /* Dom.storyboard */,
+				84DA3B442397AB1E00999A7F /* Gwen.storyboard */,
+				84DA3B472397AB3C00999A7F /* Asma.storyboard */,
 				84AF2C702396B6FD0078E03A /* Main.storyboard */,
 				84AF2C732396B6FD0078E03A /* Assets.xcassets */,
 				84AF2C752396B6FD0078E03A /* LaunchScreen.storyboard */,
@@ -128,6 +143,11 @@
 				84AF2C772396B6FD0078E03A /* LaunchScreen.storyboard in Resources */,
 				84AF2C742396B6FD0078E03A /* Assets.xcassets in Resources */,
 				84AF2C722396B6FD0078E03A /* Main.storyboard in Resources */,
+				84DA3B4E2397AB8900999A7F /* Jm.storyboard in Resources */,
+				84DA3B462397AB1E00999A7F /* Gwen.storyboard in Resources */,
+				84DA3B4C2397AB7800999A7F /* Dom.storyboard in Resources */,
+				84DA3B482397AB3C00999A7F /* Asma.storyboard in Resources */,
+				84DA3B4A2397AB6900999A7F /* Ayite.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +181,14 @@
 				84AF2C762396B6FD0078E03A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		84DA3B442397AB1E00999A7F /* Gwen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DA3B452397AB1E00999A7F /* Base */,
+			);
+			name = Gwen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
