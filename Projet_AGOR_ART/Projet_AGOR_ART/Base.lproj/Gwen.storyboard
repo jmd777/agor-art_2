@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="WVf-eO-A4F">
             <objects>
-                <viewController id="S0C-oI-sSl" sceneMemberID="viewController">
+                <viewController id="S0C-oI-sSl" customClass="ProfileViewController" customModule="Projet_AGOR_ART" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2l9-wJ-80p">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

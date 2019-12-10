@@ -18,6 +18,7 @@
 		84DA3B4A2397AB6900999A7F /* Ayite.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA3B492397AB6900999A7F /* Ayite.storyboard */; };
 		84DA3B4C2397AB7800999A7F /* Dom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA3B4B2397AB7800999A7F /* Dom.storyboard */; };
 		84DA3B4E2397AB8900999A7F /* Jm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA3B4D2397AB8900999A7F /* Jm.storyboard */; };
+		9AB885C6239FE56A006FD6D1 /* DescriptionViewController-Freestyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB885C5239FE56A006FD6D1 /* DescriptionViewController-Freestyle.swift */; };
 		EAB5871F2397C1FC005C9DBA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB5871E2397C1FC005C9DBA /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		84DA3B492397AB6900999A7F /* Ayite.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ayite.storyboard; sourceTree = "<group>"; };
 		84DA3B4B2397AB7800999A7F /* Dom.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dom.storyboard; sourceTree = "<group>"; };
 		84DA3B4D2397AB8900999A7F /* Jm.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Jm.storyboard; sourceTree = "<group>"; };
+		9AB885C5239FE56A006FD6D1 /* DescriptionViewController-Freestyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DescriptionViewController-Freestyle.swift"; sourceTree = "<group>"; };
 		EAB5871E2397C1FC005C9DBA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 				84AF2C6C2396B6FD0078E03A /* SceneDelegate.swift */,
 				84AF2C6E2396B6FD0078E03A /* ViewController.swift */,
 				EAB5871E2397C1FC005C9DBA /* ProfileViewController.swift */,
+				9AB885C5239FE56A006FD6D1 /* DescriptionViewController-Freestyle.swift */,
 				84DA3B4D2397AB8900999A7F /* Jm.storyboard */,
 				84DA3B492397AB6900999A7F /* Ayite.storyboard */,
 				84DA3B4B2397AB7800999A7F /* Dom.storyboard */,
@@ -165,6 +168,7 @@
 				84AF2C6B2396B6FD0078E03A /* AppDelegate.swift in Sources */,
 				EAB5871F2397C1FC005C9DBA /* ProfileViewController.swift in Sources */,
 				84AF2C6D2396B6FD0078E03A /* SceneDelegate.swift in Sources */,
+				9AB885C6239FE56A006FD6D1 /* DescriptionViewController-Freestyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
