@@ -9,10 +9,15 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
-
+// MARK: --------------- Variables -------------------------------
+    @IBOutlet weak var pictureNtm: UIImageView!
+    
+    @IBOutlet weak var pictureProfil: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        pictureProfil.layer.cornerRadius = 15
+        pictureNtm.clipsToBounds = true
         // Do any additional setup after loading the view.
     }
     
