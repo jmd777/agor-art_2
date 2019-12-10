@@ -7,3 +7,15 @@
 //
 
 import Foundation
+import UIKit
+
+class Description: UIViewController{
+    
+    @IBOutlet weak var Categorie: UILabel!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        Categorie.layer.cornerRadius = 10
+        Categorie.clipsToBounds = true
+    }
+    
+}
