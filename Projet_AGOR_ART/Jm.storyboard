@@ -15,15 +15,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="50cents" translatesAutoresizingMaskIntoConstraints="NO" id="yIn-Oy-2tB">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Capture d’écran 2019-12-02 à 14.30.35" translatesAutoresizingMaskIntoConstraints="NO" id="yIn-Oy-2tB">
                                 <rect key="frame" x="0.0" y="34" width="414" height="192"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icône_ticket" translatesAutoresizingMaskIntoConstraints="NO" id="0Q8-g8-10d">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Icône_Tickets" translatesAutoresizingMaskIntoConstraints="NO" id="0Q8-g8-10d">
                                 <rect key="frame" x="3" y="234" width="39" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icône_emplacement" translatesAutoresizingMaskIntoConstraints="NO" id="8bv-ZI-fE2">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Icône_Emplacement" translatesAutoresizingMaskIntoConstraints="NO" id="8bv-ZI-fE2">
                                 <rect key="frame" x="3" y="367" width="39" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -83,7 +83,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-3" translatesAutoresizingMaskIntoConstraints="NO" id="P5z-kh-2vV">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Icône_Planning" translatesAutoresizingMaskIntoConstraints="NO" id="P5z-kh-2vV">
                                 <rect key="frame" x="3" y="413" width="39" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -108,7 +108,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icône_nbr_personnes" translatesAutoresizingMaskIntoConstraints="NO" id="cCg-mV-UVt">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Icône_Nbr_Personne" translatesAutoresizingMaskIntoConstraints="NO" id="cCg-mV-UVt">
                                 <rect key="frame" x="211" y="234" width="39" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -143,10 +143,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="50cents" width="894" height="490"/>
-        <image name="Image-3" width="122" height="80"/>
-        <image name="icône_emplacement" width="102" height="96"/>
-        <image name="icône_nbr_personnes" width="90" height="76"/>
-        <image name="icône_ticket" width="110" height="74"/>
+        <image name="Capture d’écran 2019-12-02 à 14.30.35" width="894" height="490"/>
+        <image name="Icône_Emplacement" width="102" height="96"/>
+        <image name="Icône_Nbr_Personne" width="90" height="76"/>
+        <image name="Icône_Planning" width="122" height="80"/>
+        <image name="Icône_Tickets" width="110" height="74"/>
     </resources>
 </document>
