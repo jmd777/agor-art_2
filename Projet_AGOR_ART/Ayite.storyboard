@@ -169,6 +169,9 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gnO-Cy-n6y">
                                 <rect key="frame" x="46" y="701" width="320" height="160"/>
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <segue destination="pi3-1b-SLV" kind="show" id="AeI-5h-EGt"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Olympia" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kwg-f5-drz">
                                 <rect key="frame" x="54" y="833" width="61" height="22"/>
@@ -247,6 +250,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iCx-p8-FOm"/>
                     </view>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="pictureNtm" destination="yXL-Ar-1bZ" id="LiM-57-tkN"/>
                         <outlet property="pictureProfil" destination="qpe-nE-BZH" id="GcF-MB-ZjP"/>
@@ -256,6 +260,16 @@
                 <exit id="DnX-a0-Hap" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2295.6521739130435" y="160.71428571428569"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="lYC-Qh-0Gn">
+            <objects>
+                <viewControllerPlaceholder id="pi3-1b-SLV" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="hUw-7A-RbN"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jVn-hf-HPj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2238" y="618"/>
         </scene>
     </scenes>
     <resources>
