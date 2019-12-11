@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1B06B723A12ABE005707F7 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B06B623A12ABE005707F7 /* Map.storyboard */; };
 		84AF2C6B2396B6FD0078E03A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF2C6A2396B6FD0078E03A /* AppDelegate.swift */; };
 		84AF2C6D2396B6FD0078E03A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF2C6C2396B6FD0078E03A /* SceneDelegate.swift */; };
 		84AF2C6F2396B6FD0078E03A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF2C6E2396B6FD0078E03A /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A1B06B623A12ABE005707F7 /* Map.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
 		84AF2C672396B6FD0078E03A /* Projet_AGOR_ART.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Projet_AGOR_ART.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AF2C6A2396B6FD0078E03A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84AF2C6C2396B6FD0078E03A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				84DA3B492397AB6900999A7F /* Profils.storyboard */,
 				84DA3B4B2397AB7800999A7F /* Filtres.storyboard */,
 				9A72825E23A06B590060FBB5 /* DescriptionFreestyle.storyboard */,
+				2A1B06B623A12ABE005707F7 /* Map.storyboard */,
 				84DA3B472397AB3C00999A7F /* FirstPage.storyboard */,
 				84AF2C702396B6FD0078E03A /* Main.storyboard */,
 				84AF2C732396B6FD0078E03A /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 			files = (
 				84AF2C772396B6FD0078E03A /* LaunchScreen.storyboard in Resources */,
 				84AF2C742396B6FD0078E03A /* Assets.xcassets in Resources */,
+				2A1B06B723A12ABE005707F7 /* Map.storyboard in Resources */,
 				9A72825F23A06B590060FBB5 /* DescriptionFreestyle.storyboard in Resources */,
 				84AF2C722396B6FD0078E03A /* Main.storyboard in Resources */,
 				84DA3B4E2397AB8900999A7F /* Concerts.storyboard in Resources */,
