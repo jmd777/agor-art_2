@@ -18,9 +18,7 @@
 		84DA3B482397AB3C00999A7F /* FirstPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA3B472397AB3C00999A7F /* FirstPage.storyboard */; };
 		84DA3B4A2397AB6900999A7F /* Profils.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA3B492397AB6900999A7F /* Profils.storyboard */; };
 		84DA3B4C2397AB7800999A7F /* Filtres.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA3B4B2397AB7800999A7F /* Filtres.storyboard */; };
-		84DA3B4E2397AB8900999A7F /* Concerts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA3B4D2397AB8900999A7F /* Concerts.storyboard */; };
 		9A72825F23A06B590060FBB5 /* DescriptionFreestyle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A72825E23A06B590060FBB5 /* DescriptionFreestyle.storyboard */; };
-		9AB885C6239FE56A006FD6D1 /* DescriptionFreestyle2019ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB885C5239FE56A006FD6D1 /* DescriptionFreestyle2019ViewController.swift */; };
 		EAB5871F2397C1FC005C9DBA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB5871E2397C1FC005C9DBA /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,9 +36,7 @@
 		84DA3B472397AB3C00999A7F /* FirstPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FirstPage.storyboard; sourceTree = "<group>"; };
 		84DA3B492397AB6900999A7F /* Profils.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profils.storyboard; sourceTree = "<group>"; };
 		84DA3B4B2397AB7800999A7F /* Filtres.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Filtres.storyboard; sourceTree = "<group>"; };
-		84DA3B4D2397AB8900999A7F /* Concerts.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Concerts.storyboard; sourceTree = "<group>"; };
 		9A72825E23A06B590060FBB5 /* DescriptionFreestyle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DescriptionFreestyle.storyboard; sourceTree = "<group>"; };
-		9AB885C5239FE56A006FD6D1 /* DescriptionFreestyle2019ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionFreestyle2019ViewController.swift; sourceTree = "<group>"; };
 		EAB5871E2397C1FC005C9DBA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,8 +74,6 @@
 				84AF2C6C2396B6FD0078E03A /* SceneDelegate.swift */,
 				84AF2C6E2396B6FD0078E03A /* ViewController.swift */,
 				EAB5871E2397C1FC005C9DBA /* ProfileViewController.swift */,
-				9AB885C5239FE56A006FD6D1 /* DescriptionFreestyle2019ViewController.swift */,
-				84DA3B4D2397AB8900999A7F /* Concerts.storyboard */,
 				84DA3B492397AB6900999A7F /* Profils.storyboard */,
 				84DA3B4B2397AB7800999A7F /* Filtres.storyboard */,
 				9A72825E23A06B590060FBB5 /* DescriptionFreestyle.storyboard */,
@@ -158,7 +152,6 @@
 				2A1B06B723A12ABE005707F7 /* Map.storyboard in Resources */,
 				9A72825F23A06B590060FBB5 /* DescriptionFreestyle.storyboard in Resources */,
 				84AF2C722396B6FD0078E03A /* Main.storyboard in Resources */,
-				84DA3B4E2397AB8900999A7F /* Concerts.storyboard in Resources */,
 				84DA3B4C2397AB7800999A7F /* Filtres.storyboard in Resources */,
 				84DA3B482397AB3C00999A7F /* FirstPage.storyboard in Resources */,
 				84DA3B4A2397AB6900999A7F /* Profils.storyboard in Resources */,
@@ -176,7 +169,6 @@
 				84AF2C6B2396B6FD0078E03A /* AppDelegate.swift in Sources */,
 				EAB5871F2397C1FC005C9DBA /* ProfileViewController.swift in Sources */,
 				84AF2C6D2396B6FD0078E03A /* SceneDelegate.swift in Sources */,
-				9AB885C6239FE56A006FD6D1 /* DescriptionFreestyle2019ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

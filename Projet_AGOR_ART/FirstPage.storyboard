@@ -32,10 +32,10 @@
             </objects>
             <point key="canvasLocation" x="2573.913043478261" y="133.92857142857142"/>
         </scene>
-        <!--Ayite-->
+        <!--FirstPage-->
         <scene sceneID="R8C-2V-YEK">
             <objects>
-                <viewControllerPlaceholder storyboardName="Ayite" id="96C-sA-55D" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="FirstPage" id="96C-sA-55D" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="gfgfdgdd" selectedImage="square.and.arrow.up.fill" catalog="system" id="Xye-JX-wjp">
                         <color key="badgeColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
@@ -50,6 +50,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="RxJ-8a-Qqe" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="fxF-2m-1Pp">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
