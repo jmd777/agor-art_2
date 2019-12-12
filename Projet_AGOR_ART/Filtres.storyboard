@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Filtres View Controller-->
         <scene sceneID="s3W-Ar-wb3">
             <objects>
-                <viewController id="B3V-xB-M3P" sceneMemberID="viewController">
+                <viewController id="B3V-xB-M3P" customClass="FiltresViewController" customModule="Projet_AGOR_ART" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C4m-t5-vAg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

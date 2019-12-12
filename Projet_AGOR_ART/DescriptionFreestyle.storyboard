@@ -7,18 +7,26 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--FirstPage-->
-        <scene sceneID="ORa-SU-BM4">
+        <!--Profils-->
+        <scene sceneID="CNW-Ci-2xK">
             <objects>
-                <viewControllerPlaceholder storyboardName="FirstPage" id="I63-Cb-CcT" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WFZ-DX-dhe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Profils" id="ZHN-pv-mmN" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FlL-oe-8e2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-590" y="86"/>
+            <point key="canvasLocation" x="-821" y="10"/>
         </scene>
-        <!--View Controller-->
+        <!--FirstPage-->
+        <scene sceneID="SRP-Tb-1Ia">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FirstPage" id="bs8-5L-aA1" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lOB-xZ-QM2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-804" y="277"/>
+        </scene>
+        <!--Description View Controller-->
         <scene sceneID="0jd-uR-Fvc">
             <objects>
-                <viewController id="tas-Gv-bmr" sceneMemberID="viewController">
+                <viewController id="tas-Gv-bmr" customClass="DescriptionViewController" customModule="Projet_AGOR_ART" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hea-ej-Qkf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
