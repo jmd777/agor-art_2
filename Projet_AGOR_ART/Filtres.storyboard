@@ -122,16 +122,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cus-u9-NpX">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Événements" selectedImage="magnifyingglass" catalog="system" id="Tl6-ei-xEu"/>
-                                    <tabBarItem title="Profil" selectedImage="person.fill" catalog="system" id="87j-qL-7Of" userLabel="Profil"/>
-                                    <tabBarItem title="Discussions" selectedImage="message.fill" catalog="system" id="Fun-d5-WxZ" userLabel="Discussions"/>
-                                </items>
-                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                         <viewLayoutGuide key="safeArea" id="pTc-Oq-Uwq"/>
@@ -150,9 +140,4 @@
             <point key="canvasLocation" x="2476" y="500"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="magnifyingglass" catalog="system" width="64" height="56"/>
-        <image name="message.fill" catalog="system" width="64" height="56"/>
-        <image name="person.fill" catalog="system" width="64" height="60"/>
-    </resources>
 </document>
