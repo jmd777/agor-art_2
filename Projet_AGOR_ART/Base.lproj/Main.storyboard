@@ -33,14 +33,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="link.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="x27-Vm-hKK" userLabel="logo">
-                                <rect key="frame" x="169" y="363.5" width="80" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="link.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="x27-Vm-hKK" userLabel="logo">
+                                <rect key="frame" x="167" y="381.5" width="80" height="79"/>
                                 <color key="tintColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vph-1U-UiZ">
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vph-1U-UiZ">
                                 <rect key="frame" x="0.0" y="759" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
                                     <tabBarItem title="Événements" image="magnifyingglass" catalog="system" id="Kak-bT-Hiy"/>
@@ -49,15 +47,29 @@
                                 </items>
                                 <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tabBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="AGOR'ART" textAlignment="center" lineBreakMode="headTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSc-ph-g4C">
-                                <rect key="frame" x="155" y="451" width="104" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AGOR'ART" textAlignment="center" lineBreakMode="headTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSc-ph-g4C">
+                                <rect key="frame" x="155" y="469" width="104" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="vQI-TX-q5y"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
                                 <color key="textColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="FSc-ph-g4C" firstAttribute="leading" secondItem="U1t-hp-3EX" secondAttribute="leading" constant="155" id="8f7-Hw-9vi"/>
+                            <constraint firstItem="x27-Vm-hKK" firstAttribute="top" secondItem="U1t-hp-3EX" secondAttribute="top" constant="381" id="JNv-Za-lyr"/>
+                            <constraint firstItem="vph-1U-UiZ" firstAttribute="bottom" secondItem="U1t-hp-3EX" secondAttribute="bottom" id="K8U-nq-Toa"/>
+                            <constraint firstItem="vph-1U-UiZ" firstAttribute="trailing" secondItem="U1t-hp-3EX" secondAttribute="trailing" id="Qpz-va-2kd"/>
+                            <constraint firstItem="U1t-hp-3EX" firstAttribute="trailing" secondItem="FSc-ph-g4C" secondAttribute="trailing" constant="155" id="Vot-qk-vx8"/>
+                            <constraint firstItem="vph-1U-UiZ" firstAttribute="leading" secondItem="U1t-hp-3EX" secondAttribute="leading" id="cr1-9t-vsv"/>
+                            <constraint firstItem="x27-Vm-hKK" firstAttribute="leading" secondItem="U1t-hp-3EX" secondAttribute="leading" constant="167" id="e5q-jR-qcu"/>
+                            <constraint firstItem="U1t-hp-3EX" firstAttribute="trailing" secondItem="x27-Vm-hKK" secondAttribute="trailing" constant="167" id="jOS-KA-xI9"/>
+                            <constraint firstAttribute="bottom" secondItem="FSc-ph-g4C" secondAttribute="bottom" constant="345" id="jxn-D4-Ikr"/>
+                            <constraint firstItem="FSc-ph-g4C" firstAttribute="top" secondItem="x27-Vm-hKK" secondAttribute="bottom" constant="8" id="zaI-rn-LC7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="U1t-hp-3EX"/>
                     </view>
                     <navigationItem key="navigationItem" id="IWC-2P-yHD"/>
