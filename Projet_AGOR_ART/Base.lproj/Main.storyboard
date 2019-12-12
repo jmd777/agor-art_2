@@ -32,38 +32,14 @@
                     <view key="view" contentMode="scaleToFill" id="S33-hc-8Mt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="link.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="x27-Vm-hKK" userLabel="logo">
-                                <rect key="frame" x="167" y="381.5" width="80" height="79"/>
-                                <color key="tintColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AGOR'ART" textAlignment="center" lineBreakMode="headTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSc-ph-g4C">
-                                <rect key="frame" x="155" y="469" width="104" height="28"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="vQI-TX-q5y"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
-                                <color key="textColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="FSc-ph-g4C" firstAttribute="leading" secondItem="U1t-hp-3EX" secondAttribute="leading" constant="155" id="8f7-Hw-9vi"/>
-                            <constraint firstItem="x27-Vm-hKK" firstAttribute="top" secondItem="U1t-hp-3EX" secondAttribute="top" constant="381" id="JNv-Za-lyr"/>
-                            <constraint firstItem="U1t-hp-3EX" firstAttribute="trailing" secondItem="FSc-ph-g4C" secondAttribute="trailing" constant="155" id="Vot-qk-vx8"/>
-                            <constraint firstItem="x27-Vm-hKK" firstAttribute="leading" secondItem="U1t-hp-3EX" secondAttribute="leading" constant="167" id="e5q-jR-qcu"/>
-                            <constraint firstItem="U1t-hp-3EX" firstAttribute="trailing" secondItem="x27-Vm-hKK" secondAttribute="trailing" constant="167" id="jOS-KA-xI9"/>
-                            <constraint firstAttribute="bottom" secondItem="FSc-ph-g4C" secondAttribute="bottom" constant="345" id="jxn-D4-Ikr"/>
-                            <constraint firstItem="FSc-ph-g4C" firstAttribute="top" secondItem="x27-Vm-hKK" secondAttribute="bottom" constant="8" id="zaI-rn-LC7"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="U1t-hp-3EX"/>
                     </view>
                     <navigationItem key="navigationItem" id="IWC-2P-yHD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6AI-78-C4H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2623" y="134"/>
+            <point key="canvasLocation" x="2662" y="-212"/>
         </scene>
         <!--Liste-->
         <scene sceneID="1Yl-pd-Afi">
@@ -71,7 +47,7 @@
                 <viewControllerPlaceholder storyboardIdentifier="Liste.storyboard" storyboardName="Liste" id="kqm-KN-UuD" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uQY-FS-lrl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3423" y="-132"/>
+            <point key="canvasLocation" x="2606" y="329"/>
         </scene>
         <!--Filtres-->
         <scene sceneID="YcX-gj-O98">
@@ -79,7 +55,7 @@
                 <viewControllerPlaceholder storyboardIdentifier="Filtres.storyboard" storyboardName="Filtres" id="gCd-Fb-IHq" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nlc-vd-sqm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3422" y="-25"/>
+            <point key="canvasLocation" x="2457" y="425"/>
         </scene>
         <!--DescriptionFreestyle-->
         <scene sceneID="kAs-Ua-8Yy">
@@ -87,7 +63,7 @@
                 <viewControllerPlaceholder storyboardIdentifier="DescriptionFreestyle.storyboard" storyboardName="DescriptionFreestyle" id="3wl-oG-Re7" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pdy-qH-Lwy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3422" y="80"/>
+            <point key="canvasLocation" x="2347" y="537"/>
         </scene>
         <!--Profils-->
         <scene sceneID="rph-dn-NjW">
@@ -95,10 +71,7 @@
                 <viewControllerPlaceholder storyboardIdentifier="Profils.storyboard" storyboardName="Profils" id="vFP-ze-3Xw" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aHQ-a1-xdQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3429" y="177"/>
+            <point key="canvasLocation" x="2175" y="658"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="link.circle" catalog="system" width="64" height="60"/>
-    </resources>
 </document>
