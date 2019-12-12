@@ -131,13 +131,5 @@
             </objects>
             <point key="canvasLocation" x="2713.04347826087" y="81.696428571428569"/>
         </scene>
-        <!--Liste-->
-        <scene sceneID="z4i-1Y-lCB">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="Liste.storyboard" storyboardName="Liste" id="Vuk-pJ-sq1" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PF1-aD-Wwo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2476" y="500"/>
-        </scene>
     </scenes>
 </document>
