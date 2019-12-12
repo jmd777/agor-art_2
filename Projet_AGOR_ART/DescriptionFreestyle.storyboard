@@ -131,16 +131,6 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                     </view>
-                                    <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oXx-2v-yoF">
-                                        <rect key="frame" x="0.0" y="787" width="414" height="49"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <items>
-                                            <tabBarItem title="Événements" selectedImage="magnifyingglass" catalog="system" id="kvl-pS-ASz"/>
-                                            <tabBarItem title="Profil" selectedImage="person.fill" catalog="system" id="U6f-6D-8d5" userLabel="Profil"/>
-                                            <tabBarItem title="Discussions" selectedImage="message.fill" catalog="system" id="n5y-C9-Yv4" userLabel="Discussions"/>
-                                        </items>
-                                    </tabBar>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="SJF-eB-9JH" firstAttribute="top" secondItem="ho7-Nj-dua" secondAttribute="top" id="93m-Kc-zVG"/>
@@ -174,9 +164,6 @@
     <resources>
         <image name="euro" width="492" height="492"/>
         <image name="event-freestyle2019" width="414" height="368"/>
-        <image name="magnifyingglass" catalog="system" width="64" height="56"/>
-        <image name="message.fill" catalog="system" width="64" height="56"/>
-        <image name="person.fill" catalog="system" width="64" height="60"/>
         <image name="team-member" width="479" height="478"/>
     </resources>
 </document>
