@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iKy-6W-RKi">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Zts-Qr-yvg">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
@@ -37,16 +37,6 @@
                                 <rect key="frame" x="167" y="381.5" width="80" height="79"/>
                                 <color key="tintColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vph-1U-UiZ">
-                                <rect key="frame" x="0.0" y="759" width="414" height="49"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Événements" image="magnifyingglass" catalog="system" id="Kak-bT-Hiy"/>
-                                    <tabBarItem title="Profil" image="person.fill" catalog="system" selectedImage="person.fill" id="c7q-vV-4ld" userLabel="Profil"/>
-                                    <tabBarItem title="Discussions" image="message.fill" catalog="system" selectedImage="message.fill" id="D7D-Tg-EJf" userLabel="Discussions"/>
-                                </items>
-                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </tabBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AGOR'ART" textAlignment="center" lineBreakMode="headTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSc-ph-g4C">
                                 <rect key="frame" x="155" y="469" width="104" height="28"/>
                                 <constraints>
@@ -61,10 +51,7 @@
                         <constraints>
                             <constraint firstItem="FSc-ph-g4C" firstAttribute="leading" secondItem="U1t-hp-3EX" secondAttribute="leading" constant="155" id="8f7-Hw-9vi"/>
                             <constraint firstItem="x27-Vm-hKK" firstAttribute="top" secondItem="U1t-hp-3EX" secondAttribute="top" constant="381" id="JNv-Za-lyr"/>
-                            <constraint firstItem="vph-1U-UiZ" firstAttribute="bottom" secondItem="U1t-hp-3EX" secondAttribute="bottom" id="K8U-nq-Toa"/>
-                            <constraint firstItem="vph-1U-UiZ" firstAttribute="trailing" secondItem="U1t-hp-3EX" secondAttribute="trailing" id="Qpz-va-2kd"/>
                             <constraint firstItem="U1t-hp-3EX" firstAttribute="trailing" secondItem="FSc-ph-g4C" secondAttribute="trailing" constant="155" id="Vot-qk-vx8"/>
-                            <constraint firstItem="vph-1U-UiZ" firstAttribute="leading" secondItem="U1t-hp-3EX" secondAttribute="leading" id="cr1-9t-vsv"/>
                             <constraint firstItem="x27-Vm-hKK" firstAttribute="leading" secondItem="U1t-hp-3EX" secondAttribute="leading" constant="167" id="e5q-jR-qcu"/>
                             <constraint firstItem="U1t-hp-3EX" firstAttribute="trailing" secondItem="x27-Vm-hKK" secondAttribute="trailing" constant="167" id="jOS-KA-xI9"/>
                             <constraint firstAttribute="bottom" secondItem="FSc-ph-g4C" secondAttribute="bottom" constant="345" id="jxn-D4-Ikr"/>
@@ -113,8 +100,5 @@
     </scenes>
     <resources>
         <image name="link.circle" catalog="system" width="64" height="60"/>
-        <image name="magnifyingglass" catalog="system" width="64" height="56"/>
-        <image name="message.fill" catalog="system" width="64" height="56"/>
-        <image name="person.fill" catalog="system" width="64" height="60"/>
     </resources>
 </document>
