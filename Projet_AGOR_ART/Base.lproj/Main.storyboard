@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iKy-6W-RKi">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Zts-Qr-yvg">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
@@ -43,6 +43,11 @@
                                     <tabBarItem title="Discussions" selectedImage="message.fill" catalog="system" id="D7D-Tg-EJf" userLabel="Discussions"/>
                                 </items>
                             </tabBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="link.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="x27-Vm-hKK">
+                                <rect key="frame" x="167" y="381.5" width="80" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="U1t-hp-3EX"/>
@@ -53,8 +58,41 @@
             </objects>
             <point key="canvasLocation" x="2623" y="134"/>
         </scene>
+        <!--Liste-->
+        <scene sceneID="1Yl-pd-Afi">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Liste" id="kqm-KN-UuD" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uQY-FS-lrl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3423" y="-132"/>
+        </scene>
+        <!--Filtres-->
+        <scene sceneID="YcX-gj-O98">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Filtres" id="gCd-Fb-IHq" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nlc-vd-sqm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3422" y="-25"/>
+        </scene>
+        <!--DescriptionFreestyle-->
+        <scene sceneID="kAs-Ua-8Yy">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DescriptionFreestyle" id="3wl-oG-Re7" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pdy-qH-Lwy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3422" y="80"/>
+        </scene>
+        <!--Profils-->
+        <scene sceneID="rph-dn-NjW">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Profils" id="vFP-ze-3Xw" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aHQ-a1-xdQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3429" y="177"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="link.circle" catalog="system" width="64" height="60"/>
         <image name="magnifyingglass" catalog="system" width="64" height="56"/>
         <image name="message.fill" catalog="system" width="64" height="56"/>
         <image name="person.fill" catalog="system" width="64" height="60"/>
