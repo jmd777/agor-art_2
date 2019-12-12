@@ -74,6 +74,16 @@
             </objects>
             <point key="canvasLocation" x="5272.463768115942" y="103.79464285714285"/>
         </scene>
+        <!--Groupes-->
+        <scene sceneID="ZN7-lg-inV">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Groupes" id="6Vt-uX-zYg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="wne-CT-7qi"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cBz-bx-Sz6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5239" y="174"/>
+        </scene>
         <!--Profils-->
         <scene sceneID="rph-dn-NjW">
             <objects>
@@ -97,6 +107,7 @@
                     <connections>
                         <segue destination="JOC-MQ-yR4" kind="relationship" relationship="viewControllers" id="KjM-X9-VqZ"/>
                         <segue destination="vFP-ze-3Xw" kind="relationship" relationship="viewControllers" id="6SL-p4-L1d"/>
+                        <segue destination="6Vt-uX-zYg" kind="relationship" relationship="viewControllers" id="kbg-LJ-xEd"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mew-ZO-63z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
