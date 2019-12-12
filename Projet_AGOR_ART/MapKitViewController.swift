@@ -6,25 +6,44 @@
 //  Copyright © 2019 JMD. All rights reserved.
 //
 
+    // MARK: - Imports
 import UIKit
+import MapKit
+import CoreLocation
+
+    // MARK: - ClassMapKitViewController
 
 class MapKitViewController: UIViewController {
 
+    // MARK: - Outlets
+    
+    @IBOutlet weak var textFieldForAdress: UITextField!
+    @IBOutlet weak var getDirectionsTapped: UIButton!
+    @IBOutlet weak var map: MKMapView!
+    
+        // MARK: - ViewDidLoad
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
+    // MARK: - Actions
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func getDirectionsTapped(_ sender: UIButton) {
+        
     }
-    */
+    
+    func getAdress() {
+        let geoCoder = CLGeocoder()
+        geoCoder.geocodeAddressString(textFieldForAdress.text!) { (placemarks, error)
+            in
+            guard let placemarks = placemarks, let location = placemarks.first?.location
+                else {
+                    print("No Location Found")
+                    return
+            }
+            print(location)
+        }
+    }
 
 }
