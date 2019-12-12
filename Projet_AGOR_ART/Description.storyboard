@@ -110,7 +110,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="34" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SjS-gY-FGP">
                                                 <rect key="frame" x="35" y="1091" width="333" height="677"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Danse, glisse, roller dance , street workout ou encore foot freestyle : le festival met l’accent sur les pratiques artistiques et sportives issues de la street culture et propose des jams, des sessions de training et des ateliers pour tous.
+                                                <string key="text">Danse, glisse, roller dance , street workout ou encore foot freestyle : le festival met l’accent sur les pratiques artistiques et sportives issues de la street culture et propose des jams, des sessions de training et des ateliers pour tous.
 
 •  13h LES 12 TRAVAUX DE LA DANSE X Yudat Crew des sessions intensives et fun.
 
@@ -127,7 +127,7 @@
 
 • Performances &amp; shows
 
- #FreestyleVillette</mutableString>
+ #FreestyleVillette</string>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
