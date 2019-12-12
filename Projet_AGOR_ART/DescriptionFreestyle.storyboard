@@ -10,19 +10,23 @@
         <!--Profils-->
         <scene sceneID="CNW-Ci-2xK">
             <objects>
-                <viewControllerPlaceholder storyboardName="Profils" id="ZHN-pv-mmN" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardIdentifier="Profils.storyboard" storyboardName="Profils" id="ZHN-pv-mmN" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="VpB-ZD-cAj"/>
+                </viewControllerPlaceholder>
                 <navigationItem id="pnS-JS-VxL"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FlL-oe-8e2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-821" y="10"/>
+            <point key="canvasLocation" x="-233" y="466"/>
         </scene>
         <!--Main-->
         <scene sceneID="SRP-Tb-1Ia">
             <objects>
-                <viewControllerPlaceholder storyboardName="Main" id="bs8-5L-aA1" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardIdentifier="Main.storyboard" storyboardName="Main" id="bs8-5L-aA1" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="2Eu-SA-Hbp"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lOB-xZ-QM2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-814" y="125"/>
+            <point key="canvasLocation" x="-361" y="381"/>
         </scene>
         <!--Description View Controller-->
         <scene sceneID="0jd-uR-Fvc">
@@ -157,6 +161,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sRb-3c-E7v"/>
                     </view>
+                    <connections>
+                        <segue destination="bs8-5L-aA1" kind="show" id="fUy-aD-jDA"/>
+                        <segue destination="ZHN-pv-mmN" kind="show" id="IWN-lO-zsA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Ub-iO-27l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
