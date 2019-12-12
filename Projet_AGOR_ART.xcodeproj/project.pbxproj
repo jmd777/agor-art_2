@@ -15,7 +15,6 @@
 		84AF2C722396B6FD0078E03A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AF2C702396B6FD0078E03A /* Main.storyboard */; };
 		84AF2C742396B6FD0078E03A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AF2C732396B6FD0078E03A /* Assets.xcassets */; };
 		84AF2C772396B6FD0078E03A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AF2C752396B6FD0078E03A /* LaunchScreen.storyboard */; };
-		84DA3B482397AB3C00999A7F /* FirstPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA3B472397AB3C00999A7F /* FirstPage.storyboard */; };
 		84DA3B4A2397AB6900999A7F /* Profils.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA3B492397AB6900999A7F /* Profils.storyboard */; };
 		84DA3B4C2397AB7800999A7F /* Filtres.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA3B4B2397AB7800999A7F /* Filtres.storyboard */; };
 		9A2F76A823A1BD0C002407B3 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2F76A723A1BD0C002407B3 /* DescriptionViewController.swift */; };
@@ -35,7 +34,6 @@
 		84AF2C732396B6FD0078E03A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84AF2C762396B6FD0078E03A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84AF2C782396B6FD0078E03A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84DA3B472397AB3C00999A7F /* FirstPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FirstPage.storyboard; sourceTree = "<group>"; };
 		84DA3B492397AB6900999A7F /* Profils.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profils.storyboard; sourceTree = "<group>"; };
 		84DA3B4B2397AB7800999A7F /* Filtres.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Filtres.storyboard; sourceTree = "<group>"; };
 		9A2F76A723A1BD0C002407B3 /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 				84DA3B4B2397AB7800999A7F /* Filtres.storyboard */,
 				2A1B06B623A12ABE005707F7 /* Map.storyboard */,
 				2A1B06B823A1409C005707F7 /* Liste.storyboard */,
-				84DA3B472397AB3C00999A7F /* FirstPage.storyboard */,
 				84AF2C702396B6FD0078E03A /* Main.storyboard */,
 				84AF2C732396B6FD0078E03A /* Assets.xcassets */,
 				84AF2C752396B6FD0078E03A /* LaunchScreen.storyboard */,
@@ -159,7 +156,6 @@
 				9A72825F23A06B590060FBB5 /* DescriptionFreestyle.storyboard in Resources */,
 				84AF2C722396B6FD0078E03A /* Main.storyboard in Resources */,
 				84DA3B4C2397AB7800999A7F /* Filtres.storyboard in Resources */,
-				84DA3B482397AB3C00999A7F /* FirstPage.storyboard in Resources */,
 				84DA3B4A2397AB6900999A7F /* Profils.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

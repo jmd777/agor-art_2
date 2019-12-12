@@ -169,9 +169,6 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gnO-Cy-n6y">
                                 <rect key="frame" x="46" y="701" width="320" height="160"/>
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <connections>
-                                    <segue destination="pi3-1b-SLV" kind="show" id="AeI-5h-EGt"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Olympia" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kwg-f5-drz">
                                 <rect key="frame" x="54" y="833" width="61" height="22"/>
@@ -179,6 +176,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tM3-eF-vuE">
+                                <rect key="frame" x="0.0" y="764" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Événements" selectedImage="magnifyingglass" catalog="system" id="BGb-FN-7xz"/>
+                                    <tabBarItem title="Profil" selectedImage="person.fill" catalog="system" id="Gdw-jn-RBP" userLabel="Profil"/>
+                                    <tabBarItem title="Discussions" selectedImage="message.fill" catalog="system" id="wb7-F1-JiD" userLabel="Discussions"/>
+                                </items>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -262,19 +269,22 @@
             </objects>
             <point key="canvasLocation" x="3205.7971014492755" y="160.71428571428569"/>
         </scene>
-        <!--FirstPage-->
+        <!--Main-->
         <scene sceneID="lYC-Qh-0Gn">
             <objects>
-                <viewControllerPlaceholder storyboardName="FirstPage" id="pi3-1b-SLV" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Main" id="pi3-1b-SLV" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="hUw-7A-RbN"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jVn-hf-HPj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2238" y="618"/>
+            <point key="canvasLocation" x="2761" y="575"/>
         </scene>
     </scenes>
     <resources>
+        <image name="magnifyingglass" catalog="system" width="64" height="56"/>
+        <image name="message.fill" catalog="system" width="64" height="56"/>
         <image name="ntm" width="1280" height="723"/>
         <image name="pencil" catalog="system" width="64" height="56"/>
+        <image name="person.fill" catalog="system" width="64" height="60"/>
     </resources>
 </document>

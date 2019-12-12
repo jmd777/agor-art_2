@@ -11,17 +11,18 @@
         <scene sceneID="CNW-Ci-2xK">
             <objects>
                 <viewControllerPlaceholder storyboardName="Profils" id="ZHN-pv-mmN" sceneMemberID="viewController"/>
+                <navigationItem id="pnS-JS-VxL"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FlL-oe-8e2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-821" y="10"/>
         </scene>
-        <!--FirstPage-->
+        <!--Main-->
         <scene sceneID="SRP-Tb-1Ia">
             <objects>
-                <viewControllerPlaceholder storyboardName="FirstPage" id="bs8-5L-aA1" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Main" id="bs8-5L-aA1" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lOB-xZ-QM2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-804" y="277"/>
+            <point key="canvasLocation" x="-814" y="125"/>
         </scene>
         <!--Description View Controller-->
         <scene sceneID="0jd-uR-Fvc">
@@ -126,6 +127,16 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                     </view>
+                                    <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oXx-2v-yoF">
+                                        <rect key="frame" x="0.0" y="787" width="414" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <items>
+                                            <tabBarItem title="Événements" selectedImage="magnifyingglass" catalog="system" id="kvl-pS-ASz"/>
+                                            <tabBarItem title="Profil" selectedImage="person.fill" catalog="system" id="U6f-6D-8d5" userLabel="Profil"/>
+                                            <tabBarItem title="Discussions" selectedImage="message.fill" catalog="system" id="n5y-C9-Yv4" userLabel="Discussions"/>
+                                        </items>
+                                    </tabBar>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="SJF-eB-9JH" firstAttribute="top" secondItem="ho7-Nj-dua" secondAttribute="top" id="93m-Kc-zVG"/>
@@ -155,6 +166,9 @@
     <resources>
         <image name="euro" width="492" height="492"/>
         <image name="event-freestyle2019" width="414" height="368"/>
+        <image name="magnifyingglass" catalog="system" width="64" height="56"/>
+        <image name="message.fill" catalog="system" width="64" height="56"/>
+        <image name="person.fill" catalog="system" width="64" height="60"/>
         <image name="team-member" width="479" height="478"/>
     </resources>
 </document>
