@@ -29,8 +29,7 @@
                         <viewLayoutGuide key="safeArea" id="j7t-Q0-bne"/>
                     </view>
                     <connections>
-                        <outlet property="map" destination="BDZ-QA-zED" id="Jik-j5-wEL"/>
-                        <outlet property="mapView" destination="BDZ-QA-zED" id="eqC-ZT-R48"/>
+                        <outlet property="mapView" destination="BDZ-QA-zED" id="r39-aH-ehl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="omu-Jf-ST2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

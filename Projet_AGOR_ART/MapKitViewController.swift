@@ -12,7 +12,7 @@ import CoreLocation
 
 class MapKitViewController: UIViewController {
 
-    @IBOutlet weak var mapView: MKMapView!
+    @IBOutlet var mapView: MKMapView!
     
     let locationManger = CLLocationManager()
     
@@ -21,8 +21,10 @@ class MapKitViewController: UIViewController {
         
         locationManger.requestWhenInUseAuthorization()
         locationManger.desiredAccuracy = kCLLocationAccuracyBest
+        locationManger.distanceFilter = kCLDistanceFilterNone
         locationManger.startUpdatingLocation()
-        
+       
+    
         mapView.showsUserLocation = true
        
     }
