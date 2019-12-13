@@ -102,6 +102,14 @@
             </objects>
             <point key="canvasLocation" x="5239" y="174"/>
         </scene>
+        <!--Discussions-->
+        <scene sceneID="OAY-uv-jaP">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Discussions" id="wxu-1P-g7v" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ke9-9M-kRV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5593" y="173"/>
+        </scene>
         <!--Profils-->
         <scene sceneID="rph-dn-NjW">
             <objects>
