@@ -23,9 +23,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xjS-Ez-96h">
-                                <rect key="frame" x="308" y="143" width="32" height="30"/>
+                                <rect key="frame" x="303" y="143" width="42" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="filtre"/>
+                                <state key="normal" title="Filtres"/>
                                 <connections>
                                     <segue destination="gCd-Fb-IHq" kind="presentation" id="OuL-Gf-Uql"/>
                                 </connections>
@@ -33,9 +33,17 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJA-sa-PTv">
                                 <rect key="frame" x="134" y="612" width="197" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Test Description"/>
                                 <connections>
                                     <segue destination="YEd-Md-3G0" kind="show" id="y9g-yO-rwN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wsA-sc-Zne" customClass="mapUIButton">
+                                <rect key="frame" x="203" y="263" width="58" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="MapTest"/>
+                                <connections>
+                                    <segue destination="4PC-FH-LsO" kind="show" id="fQF-sa-jMH"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -47,6 +55,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6AI-78-C4H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4434.7826086956529" y="-175.44642857142856"/>
+        </scene>
+        <!--MapKit-->
+        <scene sceneID="PXE-hw-ZYZ">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="MapKitViewController" storyboardName="MapKit" id="4PC-FH-LsO" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="bZL-lm-1FE"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L4B-qO-IZ8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5250" y="-330"/>
         </scene>
         <!--Liste-->
         <scene sceneID="1Yl-pd-Afi">
