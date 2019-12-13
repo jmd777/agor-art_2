@@ -102,11 +102,6 @@
                                 <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <size key="shadowOffset" width="2" height="-1"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrX-X0-eGz">
-                                <rect key="frame" x="277" y="44" width="94" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Image_Retour_Accueil"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="nfv-k3-32e"/>
@@ -121,7 +116,6 @@
         <image name="Concert" width="60" height="60"/>
         <image name="Danse" width="60" height="60"/>
         <image name="Expos" width="60" height="60"/>
-        <image name="Image_Retour_Accueil" width="268" height="218"/>
         <image name="Musée" width="60" height="60"/>
     </resources>
 </document>
