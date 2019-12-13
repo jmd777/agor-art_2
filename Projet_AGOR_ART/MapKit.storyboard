@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="m2t-Vu-dKB">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map Kit View Controller-->
+        <scene sceneID="May-WN-NrC">
+            <objects>
+                <viewController storyboardIdentifier="MapKit.storyboard" id="m2t-Vu-dKB" customClass="MapKitViewController" customModule="Projet_AGOR_ART" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PdY-b8-ItF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="BDZ-QA-zED" customClass="mapView">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="BDZ-QA-zED" firstAttribute="top" secondItem="PdY-b8-ItF" secondAttribute="top" id="KCh-zg-FiT"/>
+                            <constraint firstItem="BDZ-QA-zED" firstAttribute="trailing" secondItem="j7t-Q0-bne" secondAttribute="trailing" id="PTD-76-s3b"/>
+                            <constraint firstItem="BDZ-QA-zED" firstAttribute="bottom" secondItem="j7t-Q0-bne" secondAttribute="bottom" id="XhO-Fk-1YX"/>
+                            <constraint firstItem="BDZ-QA-zED" firstAttribute="leading" secondItem="j7t-Q0-bne" secondAttribute="leading" id="mhZ-PM-Gw8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="j7t-Q0-bne"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="BDZ-QA-zED" id="r39-aH-ehl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="omu-Jf-ST2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="42.028985507246382" y="93.75"/>
+        </scene>
+    </scenes>
+</document>

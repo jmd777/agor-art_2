@@ -12,6 +12,8 @@
 	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Nous utilison votre localisation pour vous suivre</string>
 	<key>CFBundlePackageType</key>
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
@@ -44,22 +46,10 @@
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
-	<array>
-		<string>Event</string>
-		<string>Profil</string>
-		<string>Discussions</string>
-	</array>
+	<array/>
 	<key>UISupportedInterfaceOrientations</key>
-	<array>
-		<string>Event</string>
-		<string>Profil</string>
-		<string>Discussions</string>
-	</array>
+	<array/>
 	<key>UISupportedInterfaceOrientations~ipad</key>
-	<array>
-		<string>Event</string>
-		<string>Profil</string>
-		<string>Discussions</string>
-	</array>
+	<array/>
 </dict>
 </plist>
