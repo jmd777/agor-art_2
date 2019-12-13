@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FiltresViewController: UIViewController {
+class FiltresViewController: UITableViewController {
 
     @IBOutlet weak var lbl: UILabel!
     @IBAction func slider(_ sender: UISlider) {
