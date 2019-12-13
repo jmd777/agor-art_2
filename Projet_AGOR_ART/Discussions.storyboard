@@ -22,7 +22,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Icône_Concert_50cents" translatesAutoresizingMaskIntoConstraints="NO" id="JpS-2O-6xz">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Concert_50cents" translatesAutoresizingMaskIntoConstraints="NO" id="JpS-2O-6xz">
                                 <rect key="frame" x="179" y="112" width="70" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -41,12 +41,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Icône_User1_Groupe_Concert" translatesAutoresizingMaskIntoConstraints="NO" id="mpw-RS-34G">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_user1_discussions" translatesAutoresizingMaskIntoConstraints="NO" id="mpw-RS-34G">
                                 <rect key="frame" x="292" y="245" width="76" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Icône_User2_Groupe_Concert" translatesAutoresizingMaskIntoConstraints="NO" id="y9X-GL-8Ij">
-                                <rect key="frame" x="50" y="374" width="76" height="54"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_user2_discussions" translatesAutoresizingMaskIntoConstraints="NO" id="ogU-Pm-Nr4">
+                                <rect key="frame" x="40" y="375" width="76" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_user3_discussions" translatesAutoresizingMaskIntoConstraints="NO" id="8fo-Ka-oFt">
+                                <rect key="frame" x="40" y="506" width="76" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Ok👍🏽, pour moi il faut juste déterminer le lieu!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FWA-lO-6Ac">
@@ -65,10 +69,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Icône_User3_Groupe_Concert" translatesAutoresizingMaskIntoConstraints="NO" id="0SX-bE-fMe">
-                                <rect key="frame" x="51" y="512" width="76" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Cela me semble être une bonne idée, je confirme également de mon côté👌🏽." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AA9-6X-TJZ">
                                 <rect key="frame" x="40" y="621" width="240" height="66.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -77,15 +77,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Icône_User1_Groupe_Concert" translatesAutoresizingMaskIntoConstraints="NO" id="Eyd-1x-SIq">
-                                <rect key="frame" x="298" y="627" width="76" height="54"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Gc-Qi-GHK">
+                                <rect key="frame" x="280" y="95" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="icon.return"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_user1_discussions" translatesAutoresizingMaskIntoConstraints="NO" id="RHa-YK-29v">
+                                <rect key="frame" x="292" y="627" width="76" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z7x-PS-DVV">
-                                <rect key="frame" x="270" y="85" width="94" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Image_Retour_Accueil"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="5gd-gb-vtz"/>
@@ -97,10 +97,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Icône_Concert_50cents" width="894" height="490"/>
-        <image name="Icône_User1_Groupe_Concert" width="204" height="198"/>
-        <image name="Icône_User2_Groupe_Concert" width="198" height="196"/>
-        <image name="Icône_User3_Groupe_Concert" width="206" height="204"/>
-        <image name="Image_Retour_Accueil" width="268" height="218"/>
+        <image name="Concert_50cents" width="894" height="490"/>
+        <image name="icon.return" width="100" height="100"/>
+        <image name="icon_user1_discussions" width="204" height="198"/>
+        <image name="icon_user2_discussions" width="198" height="196"/>
+        <image name="icon_user3_discussions" width="206" height="204"/>
     </resources>
 </document>
