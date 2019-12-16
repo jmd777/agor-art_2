@@ -11,7 +11,7 @@
         <scene sceneID="8jS-wf-VNf">
             <objects>
                 <viewController title="description" id="yPV-oo-3C7" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="MFv-ew-NvO">
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="MFv-ew-NvO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="2100"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -199,7 +199,7 @@
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="GBK-XF-g7s" firstAttribute="trailing" secondItem="e8y-PN-ufx" secondAttribute="trailing" id="3cx-g1-ucK"/>
                             <constraint firstItem="GBK-XF-g7s" firstAttribute="leading" secondItem="e8y-PN-ufx" secondAttribute="leading" id="Yrw-cH-mM4"/>
